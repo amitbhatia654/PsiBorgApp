@@ -1,0 +1,105 @@
+.sidenav-small {
+  width: 62px;
+}
+
+.header {
+  background-color: #20202A;
+  color: white;
+}
+
+.sidenav {
+  background-color: #20202A;
+  color: white;
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard {
+  background-color: #141416;
+  padding: 10px;
+  color: white;
+}
+
+body {
+  background-color: #141416;
+}
+
+.box {
+  height: 140px;
+  width: 230px;
+  margin: 5px;
+  /* padding: 10px; */
+  background-color: #20202A;
+}
+
+.border1 {
+  border: 1px solid white;
+}
+
+.icon {
+  color: blue;
+
+}
+
+.iconred {
+  color: rgb(249, 6, 6);
+
+}
+
+
+.icon-box-red {
+  background-color: #e4911d;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.icon-box {
+  background-color: #6b6bea;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.side-box {
+  background-color: #20202A;
+  height: 140px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.goal-box {
+  height: 150px;
+}
+
+.bg-color-dark {
+  background-color: #20202A;
+}
+
+.text-orange {
+  color: #e4911d;
+}
+
+
+.scrollable-container {
+  overflow: auto;
+}
+
+
+.scrollable-container::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+  background: #b8b2b2;
+  /* Track color */
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background-color: #47478c;
+  /* Scrollbar color */
+  border-radius: 10px;
+  /* Rounded edges */
+}

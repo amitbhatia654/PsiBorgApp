@@ -12,20 +12,19 @@ import CoffeeIcon from "@mui/icons-material/Coffee";
 import DummyTable from "./DummyTable";
 import { Avatar, Rating } from "@mui/material";
 
-// import { PieChart } from "@mui/x-charts";
 export default function DashBoard() {
   return (
     <div className="dashboard">
       <h3 className="mx-4">Dashboard</h3>
       <div className="container-fluid">
-        <div className="row ">
-          <div className="col-md-8  ">
+        <div className="row">
+          <div className="col-12 col-lg-8 px-3">
             <div className="row">
-              <div className="box p-2 col-md-3 pt-3">
-                <span className="icon-box mx-md-3 ">
-                  <StorefrontIcon className="icon "></StorefrontIcon>
+              <div className="box p-2 col-12 col-md-6 col-lg-3 pt-3">
+                <span className="icon-box mx-md-3">
+                  <StorefrontIcon className="icon"></StorefrontIcon>
                 </span>
-                <br></br>
+                <br />
                 <div className="mx-md-3 fs-6">Total Orders</div>
                 <div className="d-flex justify-content-between mt-4">
                   <h4 className="mx-md-3">250</h4>
@@ -33,11 +32,11 @@ export default function DashBoard() {
                 </div>
               </div>
 
-              <div className="box p-2 col-md-3 pt-3 ">
-                <span className="icon-box-red mx-md-3 ">
-                  <ShoppingBagIcon className="iconred "></ShoppingBagIcon>
+              <div className="box p-2 col-12 col-md-6 col-lg-3 pt-3">
+                <span className="icon-box-red mx-md-3">
+                  <ShoppingBagIcon className="iconred"></ShoppingBagIcon>
                 </span>
-                <br></br>
+                <br />
                 <div className="mx-md-3 fs-6">Total Delivered</div>
                 <div className="d-flex justify-content-between mt-4">
                   <h4 className="mx-md-3">70</h4>
@@ -45,24 +44,24 @@ export default function DashBoard() {
                 </div>
               </div>
 
-              <div className="box p-2 col-md-3 pt-3 ">
-                <span className="icon-box mx-md-3 ">
-                  <StorefrontIcon className="icon "></StorefrontIcon>
+              <div className="box p-2 col-12 col-md-6 col-lg-3 pt-3">
+                <span className="icon-box mx-md-3">
+                  <StorefrontIcon className="icon"></StorefrontIcon>
                 </span>
-                <br></br>
+                <br />
                 <div className="mx-md-3 fs-6">Total Cancelled</div>
                 <div className="d-flex justify-content-between mt-4">
-                  <h4 className="mx-md-3 ">05</h4>
+                  <h4 className="mx-md-3">05</h4>
                   <h6 className="mt-2 text-danger">-8%</h6>
                 </div>
               </div>
 
-              <div className="box p-2 col-md-3 pt-3">
-                <span className="icon-box-red mx-md-3 ">
-                  <AddTaskIcon className="iconred "></AddTaskIcon>
+              <div className="box p-2 col-12 col-md-6 col-lg-3 pt-3">
+                <span className="icon-box-red mx-md-3">
+                  <AddTaskIcon className="iconred"></AddTaskIcon>
                 </span>
-                <br></br>
-                <div className="mx-md-3 fs-6">Total Reveneu</div>
+                <br />
+                <div className="mx-md-3 fs-6">Total Revenue</div>
                 <div className="d-flex justify-content-between mt-4">
                   <h4 className="mx-md-3">₹120k</h4>
                   <h6 className="mt-2 text-success">+40%</h6>
@@ -70,26 +69,28 @@ export default function DashBoard() {
               </div>
             </div>
           </div>
-          <div className="col-md-4   side-box">
+
+          <div className="col-12 col-lg-4 side-box">
             <div className="row">
-              <div className="col-5 pt-2">
+              <div className="col-6 col-md-5 pt-2">
                 <h5 className="mx-1">Net Profit</h5>
                 <h4>₹ 525k</h4>
                 <h6 className="text-success">+9%</h6>
               </div>
-              <div className="col-7 p-2">
+              <div className="col-6 col-md-7 p-2">
                 <PieChartCode></PieChartCode>
               </div>
             </div>
           </div>
         </div>
-        <div className="row ">
-          <div className="col-md-8 py-1 px-2">
+
+        <div className="row my-3">
+          <div className="col-md-8  px-2 mb-1">
             <div className="bg-color-dark">
               <BarChartCode></BarChartCode>
             </div>
           </div>
-          <div className="col-md-4 py-3 bg-color-dark">
+          <div className="col-md-4 py-2 bg-color-dark mb-1">
             <div className="d-flex justify-content-between mt-4 p-1 bg-color-dark">
               <div>
                 <AdsClickIcon
@@ -147,13 +148,13 @@ export default function DashBoard() {
         <div className="row  mt-2 ">
           <div className="col-md-8   px-2 ">
             <div className="bg-color-dark">
-              <h4 className="mx-2 ">Recent Orders</h4>
+              <h4 className="mx-3 ">Recent Orders</h4>
               <DummyTable></DummyTable>
             </div>
           </div>
-          <div className="col-md-4 bg-color-dark mt-md-0 mt-2">
+          <div className="col-md-4 bg-color-dark mt-md-0 mt-2 px-4">
             <div className="">
-              <h5 className="mt-2">Customer &apos;s Feedback</h5>
+              <h4 className="mt-2">Customer &apos;s Feedback</h4>
               <div className="d-flex mt-4">
                 {" "}
                 <Avatar alt="Remy Sharp" src={user} />{" "}

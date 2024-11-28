@@ -30,7 +30,8 @@ body {
 .box {
   height: 140px;
   width: 230px;
-  margin: 5px;
+  /* width: 25%; */
+  margin: 4px;
   /* padding: 10px; */
   background-color: #20202A;
 }
@@ -65,7 +66,10 @@ body {
 .side-box {
   background-color: #20202A;
   height: 140px;
+  /* width: 464px; */
+  /* width: 475px; */
   margin-top: 5px;
+  /* margin-left: 10px;  */
   padding: 5px;
 }
 
@@ -102,4 +106,16 @@ body {
   /* Scrollbar color */
   border-radius: 10px;
   /* Rounded edges */
+}
+
+.MuiChartsXAxis-label,
+.MuiChartsYAxis-label {
+  fill: white;
+  /* Label text color */
+}
+
+.MuiChartsXAxis-line,
+.MuiChartsYAxis-line {
+  stroke: white;
+  /* Axis line color */
 }
